@@ -15,6 +15,8 @@
 		AC258F3E2646426B00D933F2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC258F132646426900D933F2 /* ContentView.swift */; };
 		AC258F3F2646426B00D933F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC258F142646426B00D933F2 /* Assets.xcassets */; };
 		AC258F402646426B00D933F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC258F142646426B00D933F2 /* Assets.xcassets */; };
+		AC258F532647788A00D933F2 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC258F522647788A00D933F2 /* Launch Screen.storyboard */; };
+		AC258F542647788A00D933F2 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC258F522647788A00D933F2 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,7 @@
 		AC258F342646426B00D933F2 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC258F382646426B00D933F2 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		AC258F3A2646426B00D933F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC258F522647788A00D933F2 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 				AC258F122646426900D933F2 /* KYNDApp.swift */,
 				AC258F132646426900D933F2 /* ContentView.swift */,
 				AC258F142646426B00D933F2 /* Assets.xcassets */,
+				AC258F522647788A00D933F2 /* Launch Screen.storyboard */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -275,6 +279,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC258F532647788A00D933F2 /* Launch Screen.storyboard in Resources */,
 				AC258F3F2646426B00D933F2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +288,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC258F542647788A00D933F2 /* Launch Screen.storyboard in Resources */,
 				AC258F402646426B00D933F2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
