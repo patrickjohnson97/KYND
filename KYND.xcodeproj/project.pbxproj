@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,6 +17,22 @@
 		AC258F402646426B00D933F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC258F142646426B00D933F2 /* Assets.xcassets */; };
 		AC258F532647788A00D933F2 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC258F522647788A00D933F2 /* Launch Screen.storyboard */; };
 		AC258F542647788A00D933F2 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC258F522647788A00D933F2 /* Launch Screen.storyboard */; };
+		AC258F572647800700D933F2 /* Tabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC258F562647800700D933F2 /* Tabbar.swift */; };
+		AC258F582647800700D933F2 /* Tabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC258F562647800700D933F2 /* Tabbar.swift */; };
+		AC258F5A26478A2800D933F2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC258F5926478A2800D933F2 /* HomeView.swift */; };
+		AC258F5B26478A2800D933F2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC258F5926478A2800D933F2 /* HomeView.swift */; };
+		AC258F5D26478A5200D933F2 /* NotifsVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC258F5C26478A5200D933F2 /* NotifsVIew.swift */; };
+		AC258F5E26478A5200D933F2 /* NotifsVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC258F5C26478A5200D933F2 /* NotifsVIew.swift */; };
+		AC258F6026478A8300D933F2 /* WalletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC258F5F26478A8300D933F2 /* WalletView.swift */; };
+		AC258F6126478A8300D933F2 /* WalletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC258F5F26478A8300D933F2 /* WalletView.swift */; };
+		AC258F6326478A9400D933F2 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC258F6226478A9400D933F2 /* ProfileView.swift */; };
+		AC258F6426478A9400D933F2 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC258F6226478A9400D933F2 /* ProfileView.swift */; };
+		AC258F67264791DE00D933F2 /* Tabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC258F562647800700D933F2 /* Tabbar.swift */; };
+		AC258F68264791E800D933F2 /* NotifsVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC258F5C26478A5200D933F2 /* NotifsVIew.swift */; };
+		AC258F69264791E800D933F2 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC258F6226478A9400D933F2 /* ProfileView.swift */; };
+		AC258F6A264791E800D933F2 /* WalletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC258F5F26478A8300D933F2 /* WalletView.swift */; };
+		AC258F6B264791E800D933F2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC258F5926478A2800D933F2 /* HomeView.swift */; };
+		AC258F6E2647927B00D933F2 /* ViewInspector in Frameworks */ = {isa = PBXBuildFile; productRef = AC258F6D2647927B00D933F2 /* ViewInspector */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +68,11 @@
 		AC258F382646426B00D933F2 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		AC258F3A2646426B00D933F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC258F522647788A00D933F2 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		AC258F562647800700D933F2 /* Tabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabbar.swift; sourceTree = "<group>"; };
+		AC258F5926478A2800D933F2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		AC258F5C26478A5200D933F2 /* NotifsVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotifsVIew.swift; sourceTree = "<group>"; };
+		AC258F5F26478A8300D933F2 /* WalletView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletView.swift; sourceTree = "<group>"; };
+		AC258F6226478A9400D933F2 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC258F6E2647927B00D933F2 /* ViewInspector in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +123,7 @@
 		AC258F112646426900D933F2 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				AC258F5526477FD300D933F2 /* Views */,
 				AC258F122646426900D933F2 /* KYNDApp.swift */,
 				AC258F132646426900D933F2 /* ContentView.swift */,
 				AC258F142646426B00D933F2 /* Assets.xcassets */,
@@ -155,6 +178,18 @@
 			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
+		AC258F5526477FD300D933F2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AC258F562647800700D933F2 /* Tabbar.swift */,
+				AC258F5926478A2800D933F2 /* HomeView.swift */,
+				AC258F5F26478A8300D933F2 /* WalletView.swift */,
+				AC258F5C26478A5200D933F2 /* NotifsVIew.swift */,
+				AC258F6226478A9400D933F2 /* ProfileView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -206,6 +241,9 @@
 				AC258F2B2646426B00D933F2 /* PBXTargetDependency */,
 			);
 			name = "Tests iOS";
+			packageProductDependencies = (
+				AC258F6D2647927B00D933F2 /* ViewInspector */,
+			);
 			productName = "Tests iOS";
 			productReference = AC258F292646426B00D933F2 /* Tests iOS.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -262,6 +300,9 @@
 				Base,
 			);
 			mainGroup = AC258F0C2646426900D933F2;
+			packageReferences = (
+				AC258F6C2647927B00D933F2 /* XCRemoteSwiftPackageReference "ViewInspector" */,
+			);
 			productRefGroup = AC258F1A2646426B00D933F2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -314,8 +355,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC258F5D26478A5200D933F2 /* NotifsVIew.swift in Sources */,
+				AC258F572647800700D933F2 /* Tabbar.swift in Sources */,
+				AC258F5A26478A2800D933F2 /* HomeView.swift in Sources */,
 				AC258F3D2646426B00D933F2 /* ContentView.swift in Sources */,
 				AC258F3B2646426B00D933F2 /* KYNDApp.swift in Sources */,
+				AC258F6326478A9400D933F2 /* ProfileView.swift in Sources */,
+				AC258F6026478A8300D933F2 /* WalletView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,8 +369,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC258F5E26478A5200D933F2 /* NotifsVIew.swift in Sources */,
+				AC258F582647800700D933F2 /* Tabbar.swift in Sources */,
+				AC258F5B26478A2800D933F2 /* HomeView.swift in Sources */,
 				AC258F3E2646426B00D933F2 /* ContentView.swift in Sources */,
 				AC258F3C2646426B00D933F2 /* KYNDApp.swift in Sources */,
+				AC258F6426478A9400D933F2 /* ProfileView.swift in Sources */,
+				AC258F6126478A8300D933F2 /* WalletView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,7 +383,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC258F67264791DE00D933F2 /* Tabbar.swift in Sources */,
+				AC258F6B264791E800D933F2 /* HomeView.swift in Sources */,
+				AC258F68264791E800D933F2 /* NotifsVIew.swift in Sources */,
+				AC258F69264791E800D933F2 /* ProfileView.swift in Sources */,
 				AC258F2E2646426B00D933F2 /* Tests_iOS.swift in Sources */,
+				AC258F6A264791E800D933F2 /* WalletView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -489,7 +545,7 @@
 				PRODUCT_NAME = KYND;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -511,7 +567,7 @@
 				PRODUCT_NAME = KYND;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -702,6 +758,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AC258F6C2647927B00D933F2 /* XCRemoteSwiftPackageReference "ViewInspector" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nalexn/ViewInspector";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.7.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AC258F6D2647927B00D933F2 /* ViewInspector */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AC258F6C2647927B00D933F2 /* XCRemoteSwiftPackageReference "ViewInspector" */;
+			productName = ViewInspector;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AC258F0D2646426900D933F2 /* Project object */;
 }

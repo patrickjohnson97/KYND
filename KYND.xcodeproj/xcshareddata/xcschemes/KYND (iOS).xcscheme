@@ -37,6 +37,11 @@
                BlueprintName = "Tests iOS"
                ReferencedContainer = "container:KYND.xcodeproj">
             </BuildableReference>
+            <SkippedTests>
+               <Test
+                  Identifier = "TabbarTest">
+               </Test>
+            </SkippedTests>
          </TestableReference>
       </Testables>
    </TestAction>
