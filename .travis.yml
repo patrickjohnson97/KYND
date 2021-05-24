@@ -1,0 +1,4 @@
+osx_image: xcode12.5
+language: swift
+script:
+- fastlane scan --scheme "KYND" --device "iPhone 12"
