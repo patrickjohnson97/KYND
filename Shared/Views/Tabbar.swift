@@ -12,16 +12,16 @@ struct Tabbar: View {
     var body: some View {
         TabView(selection: $selection){
             HomeView()
-                .tabItem { Label("Home", systemImage: "house") }
+                .tabItem { Label("Home", systemImage: selection == "Home" ? "house.fill" : "house") }
                 .tag("Home")
             WalletView()
-                .tabItem { Label("Wallet", systemImage: "wallet.pass") }
+                .tabItem { Label("Wallet", systemImage: selection == "Wallet" ? "wallet.pass.fill" : "wallet.pass") }
                 .tag("Wallet")
-            NotifsVIew()
-                .tabItem { Label("Notifs", systemImage: "bell") }
+            NotifsView()
+                .tabItem { Label("Notifs", systemImage: selection == "Notifs" ? "bell.fill" : "bell") }
                 .tag("Notifs")
             ProfileView()
-                .tabItem { Label("Profile", systemImage: "person") }
+                .tabItem { Label("Profile", systemImage: selection == "Profile" ? "person.fill" : "person") }
                 .tag("Profile")
         }
     }
